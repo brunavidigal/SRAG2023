@@ -36,18 +36,28 @@ prevenção e controle.
 Os dados são referentes a duzentos e setenta e nove mil e quatrocentos e cinquenta
 e três notificações de casos de síndromes respiratórias graves, sendo esses casos 
 categorizados em Síndrome Gripal (SG), Síndrome Respiratória Aguda Grave UTI (SRAG-UTI) 
-e Síndrome Respiratória Aguda Grave - Hospitalizado (SRAG-Hospitalizado). 
-\code{incluir gráfico aqui}
+e Síndrome Respiratória Aguda Grave - Hospitalizado (SRAG-Hospitalizado).
 
 
 Na etapa inicial de tratamento dos dados, foi conduzida uma análise exploratória 
-com foco na avaliação da proporção dos valores nulos por variável. Foi identificado que do total de 194 variáveis, 7 apresentavam 100$\%$ de ausência de registros e foram excluídas. A base de dados resultante passou a contar com 187 variáveis válidas. A segunda análise considerou a exclusão de variáveis com mais de 60$\%$ de valores nulos, aplicando critérios adicionais como:
+com foco na avaliação da proporção dos valores nulos por variável. 
+Foi identificado que do total de 194 variáveis, 7 apresentavam 100% de ausência de registros 
+e foram excluídas. A base de dados resultante passou a contar com 187 variáveis válidas. 
+A segunda análise considerou a exclusão de variáveis com mais de 60% de valores nulos, 
+aplicando critérios adicionais como:
 
 
-- variáveis que não estavam descritas no dicionários de dados;
+- variáveis que não estavam descritas no dicionário de dados;
 - variáveis que eram relevantes somente para uma subpopulação específica;
 - variáveis categóricas com distribuição extremamente desbalanceadas.
 
+Essa estratégia buscou assegurar maior consistência, relevância analítica e robustez dos 
+dados para as etapas subsequentes de processamento e modelagem. Após essas exclusões, a base 
+final de trabalho passou a contar com 86 variáveis válidas.
+
+Seguindo o raciocínio apresentado nos dados faltantes, outros quatro campos foram 
+desconsiderados da análise por não constarem no dicionário de dados, sendo incerta a sua 
+pertinência para o estudo.
 </div>
 
 
